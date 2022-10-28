@@ -1,0 +1,54 @@
+h1,
+h2,
+h3,
+p {
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+h1 {
+  text-align: center;
+  margin-top: 5px;
+}
+h2 {
+  text-align: center;
+  border-radius: 60px;
+  padding: 0 5px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0;
+}
+.back-vid {
+  position: fixed;
+  z-index: -1;
+  max-width: 500px;
+  border-radius: 5px;
+}
+.card {
+  background-color: rgba(0, 0, 0, 0.111);
+  text-align: center;
+  color: aliceblue;
+  border: none;
+}
+.card-text {
+  border-radius: 5px;
+}
+.card-title {
+  padding-top: 3px;
+}
+.fa-sun {
+  font-size: 30px;
+  color: #ffc93c;
+  transition: all 250ms ease-in-out;
+}
+.fa-sun:hover {
+  color: #ff9a3c;
+}
+.fa-cloud-sun {
+  font-size: 30px;
+}
+.fa-cloud-sun-rain {
+  font-size: 30px;
+}
